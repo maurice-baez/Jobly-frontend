@@ -1,0 +1,62 @@
+.home {
+  margin-top: 300px;
+}
+
+.company-logo {
+  height: 25px;
+  width: auto;
+}
+
+.card {
+  width: 100%;
+  padding: 10px;
+}
+
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.jobCard:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.form-title {
+  margin-top: 50px;
+}
+
+.form-card {
+  margin-top: 25px;
+  width: 50%;
+  padding: 20px;
+}
+
+.btn-home {
+  padding: 5px;
+}
+
+.btn-home:hover {
+  background-color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.jobly-title {
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 86px;
+  text-shadow: 3px 3px 3px #0c0b0a;
+}
+
+.home-text {
+  color: aliceblue;
+  text-shadow: 2px 2px 2px #0c0b0a;
+}
+
+label {
+  font-weight: 500;
+  padding-bottom: 5px;
+}
