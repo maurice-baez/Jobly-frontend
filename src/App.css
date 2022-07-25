@@ -1,5 +1,7 @@
 .home {
-  margin-top: 300px;
+  min-height: calc(100vh - 90px);
+  display: flex;
+  align-items: center;
 }
 
 .company-logo {

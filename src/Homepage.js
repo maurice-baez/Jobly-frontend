@@ -6,8 +6,8 @@ function Homepage() {
   const { currentUser } = useContext(UserContext);
 
   return (
-    <div className="home container text-center">
-      <div className="">
+    <div className="home container">
+      <div className="container text-center">
         <h1 className="jobly-title fw-bolder">Jobly</h1>
         <h3 className="home-text fw-bolder mt-3 mb-3">
           All the jobs in one, convenient place.
