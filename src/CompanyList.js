@@ -42,7 +42,7 @@ function CompanyList() {
       <div className="d-flex justify-content-center">
         <ul className="">
           {companies.data.map((company) => (
-            <li key={company.handle} className="card m-3">
+            <li key={company.handle} className="card card-display m-3">
               <Link to={`/companies/${company.handle}`}>
                 <CompanyCard company={company} />
               </Link>
